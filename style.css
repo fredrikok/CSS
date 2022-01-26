@@ -1,0 +1,92 @@
+/* Base styling */
+
+* {
+     box-sizing: border-box;
+  }
+
+
+  body{
+    padding: 20px;
+    font: 1em Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+
+
+h1, h2, h3{
+    font-style: bold;
+}
+
+#input1{
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+
+}
+
+#input2{
+    width: 800px;
+    height: 100px;
+    border-radius: 10px;
+
+}
+
+section{
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+
+    
+}
+
+
+
+
+nav{
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid green;
+  }
+
+
+
+.container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+  }
+
+  article{
+      width: 450px;
+      margin: 10px;
+      padding: 2rem;
+  }
+  
+  
+  .articlebutton{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+  }
+
+  .addbutton{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+  }
